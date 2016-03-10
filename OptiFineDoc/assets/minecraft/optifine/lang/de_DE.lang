@@ -10,7 +10,7 @@ of.general.restart=Neustart
 of.general.smart=Fein
 
 # Message
-of.message.aa.shaders1=Antialiasing ist it Shaders nicht kompatibel.
+of.message.aa.shaders1=Antialiasing ist mit Shaders nicht kompatibel.
 of.message.aa.shaders2=Bitte deaktiviere Shaders um diese Einstellung zu aktivieren.
 
 of.message.af.shaders1=Anistropische Filterung ist nicht mit Shaders kompatibel.
@@ -34,7 +34,7 @@ of.message.openglError=§eOpenGL Fehler§f: %s (%s)
 
 of.message.shaders.loading=Lade Shaders: %s
 
-of.message.other.reset=Alle Videoeinstellungen zu deren Standardwerte setzen?
+of.message.other.reset=Alle Videoeinstellungen auf deren Standardwerte setzen?
  
 # Video settings
 
@@ -78,7 +78,7 @@ options.viewBobbing.tooltip.1=Realistischere Bewegung
 options.viewBobbing.tooltip.2=Wenn Mipmaps verwendet werden, stelle es auf AUS für beste Ergebnisse.
 
 options.guiScale.tooltip.1=GUI-Größe
-options.guiScale.tooltip.2=Kleinere GUI sind eventuell schneller
+options.guiScale.tooltip.2=Kleinere GUI ist eventuell schneller
 
 options.vbo.tooltip.1=Vertexbufferobjekte
 options.vbo.tooltip.2=Benutzt ein alternatives Rendering-Modell, das normalerweise
@@ -119,7 +119,7 @@ of.options.CHUNK_LOADING.tooltip.2=  Standard - FPS unstabil, wenn Chunks gelade
 of.options.CHUNK_LOADING.tooltip.3=  Weich - FPS stabil
 of.options.CHUNK_LOADING.tooltip.4=  Multi-Kern - FPS stabil, 3x schnelleres Weltladen
 of.options.CHUNK_LOADING.tooltip.5=Weich und Multi-Kern entfernen das Gestotter und
-of.options.CHUNK_LOADING.tooltip.6=Einfieren, verursacht durch Chunkladen.
+of.options.CHUNK_LOADING.tooltip.6=Einfrieren, verursacht durch Chunkladen.
 of.options.CHUNK_LOADING.tooltip.7=Multi-Kern kann das Weltladen 3x schneller machen und
 of.options.CHUNK_LOADING.tooltip.8=die FPS erhöhen, indem es einen zweiten CPU-Kern benutzt.
 of.options.chunkLoading.smooth=Weich
@@ -161,7 +161,7 @@ of.shaders.profile=Profil
 
 of.options.mipmap.bilinear=Bilinear
 of.options.mipmap.linear=Linear
-of.options.mipmap.nearest=Am nächsten
+of.options.mipmap.nearest=Am Nächsten
 of.options.mipmap.trilinear=Trilinear
 
 options.mipmapLevels.tooltip.1=Visueller Effekt, der weit entfernte Objekte besser aussehen lässt
@@ -321,14 +321,14 @@ of.options.RAIN.tooltip.7=trotzdem noch aktiv.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
-of.options.SKY.tooltip.2=  AN - Himmel ist sehbar, langsamer
-of.options.SKY.tooltip.3=  AUS  - Himmel ist nicht sehbar, schneller
-of.options.SKY.tooltip.4=Wenn Himmel AUS ist, sind der Mond und die Sonne trotzdem noch sehbar.
+of.options.SKY.tooltip.2=  AN - Himmel ist sichtbar, langsamer
+of.options.SKY.tooltip.3=  AUS  - Himmel ist nicht sichtbar, schneller
+of.options.SKY.tooltip.4=Wenn Himmel AUS ist, sind der Mond und die Sonne trotzdem noch sichtbar.
 
 of.options.STARS=Sterne
 of.options.STARS.tooltip.1=Sterne
-of.options.STARS.tooltip.2=  AN - Sterne sind sehbar, langsamer
-of.options.STARS.tooltip.3=  AUS  - Sterne ist nicht sehbar, schneller
+of.options.STARS.tooltip.2=  AN - Sterne sind sichtbar, langsamer
+of.options.STARS.tooltip.3=  AUS  - Sterne sind nicht sichtbar, schneller
 
 of.options.SUN_MOON=Sonne & Mond
 of.options.SUN_MOON.tooltip.1=Sonne & Mond
@@ -368,8 +368,8 @@ of.options.VIGNETTE.tooltip.1=Visueller Effekt, der die Bildschirmecken schwärz
 of.options.VIGNETTE.tooltip.2=  Standard - Wie Grafikeinstellungen (Standard)
 of.options.VIGNETTE.tooltip.3=  Schnell - Vignette deaktiviert (schneller)
 of.options.VIGNETTE.tooltip.4=  Schön - Vignette aktiviert (langsamer)
-of.options.VIGNETTE.tooltip.5=Die Vignette kann einen extremen Effekt auf die FPS haben,
-of.options.VIGNETTE.tooltip.6=besonders im Vollbildschirmmodus.
+of.options.VIGNETTE.tooltip.5=Die Vignette kann einen extremen Einfluss auf die FPS haben,
+of.options.VIGNETTE.tooltip.6=besonders im Vollbildmodus.
 of.options.VIGNETTE.tooltip.7=Der Vignetteneffekt ist freiwillig und kann sicher
 of.options.VIGNETTE.tooltip.8=deaktiviert werden.
 
@@ -379,7 +379,7 @@ of.options.SMOOTH_FPS=Weiche FPS
 of.options.SMOOTH_FPS.tooltip.1=Stabilisiert die FPS, indem die Grafiktreiberpuffer genutzt werden
 of.options.SMOOTH_FPS.tooltip.2=  AUS - Keine Stabilisierung, FPS könnten schwanken
 of.options.SMOOTH_FPS.tooltip.3=  AN - FPS-Stabilisierung
-of.options.SMOOTH_FPS.tooltip.4=Diese Option ist Grafikkartentreiberabhängig und sein Effekt
+of.options.SMOOTH_FPS.tooltip.4=Diese Option ist grafikkartentreiberabhängig und der Effekt
 of.options.SMOOTH_FPS.tooltip.5=ist nicht immer spürbar.
 
 of.options.SMOOTH_WORLD=Weiche Welt
@@ -488,17 +488,17 @@ of.options.TIME.tooltip.4= Nur Nacht - Nur Nacht
 of.options.TIME.tooltip.5=Die Zeiteinstellung ist nur im KREATIV-Modus und
 of.options.TIME.tooltip.6=in lokalen Welten effektiv.
 
-options.fullscreen.tooltip.1=Vollbildschirm
-options.fullscreen.tooltip.2=  AN - Benutze Vollbildschirmmodus
+options.fullscreen.tooltip.1=Vollbild
+options.fullscreen.tooltip.2=  AN - Benutze Vollbildmodus
 options.fullscreen.tooltip.3=  AUS - Benutze Fenstermodus
-options.fullscreen.tooltip.4=Vollbildschirmmodus könnte schneller oder langsamer sein als
+options.fullscreen.tooltip.4=Vollbildmodus könnte schneller oder langsamer sein als
 options.fullscreen.tooltip.5=Fenstermodus, kommt auf Grafikkarte an.
 
-of.options.FULLSCREEN_MODE=Vollbildschirmmodus
-of.options.FULLSCREEN_MODE.tooltip.1=Vollbildschirmmodus
+of.options.FULLSCREEN_MODE=Vollbildmodus
+of.options.FULLSCREEN_MODE.tooltip.1=Vollbildmodus
 of.options.FULLSCREEN_MODE.tooltip.2=  Standard - Benutze Desktopbildschirmauflösung, langsamer
 of.options.FULLSCREEN_MODE.tooltip.3=  WxH - Benutze eigene Bildschirmauflösung, könnte schneller sein
-of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildschirmmodus verwendet (F11).
+of.options.FULLSCREEN_MODE.tooltip.4=Die ausgewählte Auflösung wird im Vollbildmodus verwendet (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Kleinere Auflösungen sollten generell schneller sein.
 
 of.options.SHOW_FPS=Zeige FPS
@@ -506,7 +506,7 @@ of.options.SHOW_FPS.tooltip.1=Zeige kurze FPS- und Render-Informationen
 of.options.SHOW_FPS.tooltip.2=  C: - Chunkrenderer
 of.options.SHOW_FPS.tooltip.3=  E: - Objektrenderer + Blockrenderer
 of.options.SHOW_FPS.tooltip.4=  U: - Chunk-Aktualisierungen
-of.options.SHOW_FPS.tooltip.5=Die kurze FPS-Informationen werden nur gezeigt, wenn der
+of.options.SHOW_FPS.tooltip.5=Die kurzen FPS-Informationen werden nur gezeigt, wenn der
 of.options.SHOW_FPS.tooltip.6=Debugbildschirm (F3) sichtbar ist.
 
 of.options.save.default=Standard (2s)
